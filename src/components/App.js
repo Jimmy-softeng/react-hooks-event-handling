@@ -3,6 +3,8 @@ import Tickler from "./Tickler";
 import MultiButton from "./MultiButton";
 import ChangeItUp from "./ChangeItUp";
 import Login from "./Login";
+import Keypad from "./Keypad";
+import EyesOnMe from "./EyesOnMe";
 
 function App() {
   return (
@@ -21,6 +23,17 @@ function App() {
       <h3>onSubmit</h3>
       <Login />
       <hr />
+      
+      <h3>Keypad</h3>
+      <Keypad />
+      <hr />
+
+      <h3>EyesOnMe</h3>
+      <EyesOnMe />
+      <hr />
+
+
+
     </div>
   );
 }
